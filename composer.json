@@ -1,15 +1,13 @@
 {
+  // package name
   "name": "zwc160101/zhou-csv",
-  "description": "Yii2 zwc160101  zhou-csv",
-  "keywords": [
-    "yii2",
-    "terrytest"
-  ],
-  "homepage": "https://github.com/zwc160101/zhou-csv",
+  // package type
   "type": "yii2-extension",
+  "description": "Yii2 zqy234 terrytest",
+  "keywords": ["yii2", "csv", "helper"],
   "license": "MIT",
   "support": {
-    "source": "https://github.com/zwc160101/zhou-csv"
+    "source": "https://github.com/zwc160101/zhou-csv.git"
   },
   "authors": [
     {
@@ -17,16 +15,14 @@
       "email": "1054531835@qq.com"
     }
   ],
-  "minimum-stability": "stable",
+  // package dependencies
   "require": {
     "php": ">=5.4.0"
   },
+  // class autoloading specs
   "autoload": {
     "psr-4": {
       "zhou-csv\\": "src/"
     }
-  },
-  "config": {
-    "process-timeout": 1800
   }
 }
