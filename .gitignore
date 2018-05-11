@@ -1,3 +1,5 @@
+.idea
+/vender
 assets/*
 !assets/.gitignore
 protected/runtime/*
