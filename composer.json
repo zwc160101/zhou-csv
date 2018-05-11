@@ -1,7 +1,5 @@
 {
-  // package name
   "name": "zwc/zhou-csv",
-  // package type
   "type": "yii2-extension",
   "description": "Yii2 zqy234 terrytest",
   "keywords": ["yii2", "csv", "helper"],
@@ -15,11 +13,9 @@
       "email": "1054531835@qq.com"
     }
   ],
-  // package dependencies
   "require": {
     "php": ">=5.4.0"
   },
-  // class autoloading specs
   "autoload": {
     "psr-4": {
       "zhou-csv\\": "src/"
